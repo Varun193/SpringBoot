@@ -1,0 +1,20 @@
+package com.example.bootapplicationproperties.entites;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+@Component
+@ConfigurationProperties(prefix = "student")
+public class Student {
+
+    int id;
+    String name;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+}

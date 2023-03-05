@@ -1,0 +1,19 @@
+#spring:
+#  profiles:
+#    active: dev
+#---
+spring:
+  profiles: test
+
+student:
+  id: 113
+  name: testing by reddy
+---
+spring:
+  profiles: dev
+
+student:
+  id: 116
+  name: dev by varun
+---
+
